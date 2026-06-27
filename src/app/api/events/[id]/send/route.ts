@@ -149,7 +149,7 @@ export async function POST(
 
         if (group.phone) {
           const phone = group.phone.replace(/\D/g, "");
-          const msg = encodeURIComponent(`You're Invited! ✨\n\nDear ${group.headGuestName},\n\nYou are invited to the ${event.eventType} of ${event.hostNames} on ${formatDate(new Date(event.eventDate))} at ${event.eventTime}.\n\nVenue: ${event.venue}\nParty size: ${group.maxGuests} guest(s)\n\nPlease RSVP by ${formatDate(new Date(event.rsvpDeadline))}:\n${inviteUrl}`);
+          const msg = encodeURIComponent(`You're Invited! \n\nDear ${group.headGuestName},\n\nYou are invited to the ${event.eventType} of ${event.hostNames} on ${formatDate(new Date(event.eventDate))} at ${event.eventTime}.\n\nVenue: ${event.venue}\nParty size: ${group.maxGuests} guest(s)\n\nPlease RSVP by ${formatDate(new Date(event.rsvpDeadline))}:\n${inviteUrl}`);
           whatsappLink = `https://wa.me/${phone}?text=${msg}`;
         }
 

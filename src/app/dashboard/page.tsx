@@ -226,6 +226,7 @@ function CreateEventModal({ onClose, onCreated }: { onClose: () => void; onCreat
                 className="w-full px-4 py-2.5 rounded-lg border border-champagne bg-ivory text-charcoal text-sm"
               >
                 <option>Wedding</option>
+                <option>Wedding Reception</option>
                 <option>Birthday</option>
                 <option>Anniversary</option>
                 <option>Engagement</option>
