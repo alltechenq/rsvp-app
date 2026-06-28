@@ -167,12 +167,12 @@ export default function InvitePage({ params }: { params: Promise<{ token: string
         */}
           <div className="my-8 py-6 border-t border-b border-champagne">
             <p className="font-display text-2xl text-charcoal mb-1">
-             on {formatDateLong(event.eventDate)}
+             {formatDateLong(event.eventDate)}
             </p>
-            at <p className="text-gold-dark text-lg">{formatTime(event.eventTime)}</p>
+            <p className="text-gold-dark text-lg">{formatTime(event.eventTime)}</p>
             <p className="text-warm-gray mt-3">{event.venue}</p>
             {event.venueAddress && (
-             Location: <p className="text-warm-gray text-sm mt-1">{event.venueAddress}</p>
+            <p className="text-warm-gray text-sm mt-1">{event.venueAddress}</p>
             )}
           </div>
 
