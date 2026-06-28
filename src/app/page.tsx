@@ -95,7 +95,7 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="border-t border-champagne/50 py-8 text-center">
-        <p className="text-xs text-warm-gray">Built with care for your special moments.</p>
+        <p className="text-xs text-warm-gray">Built by Deb-Tech</p>
       </footer>
     </div>
   );
