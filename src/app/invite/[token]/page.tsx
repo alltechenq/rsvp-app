@@ -231,7 +231,7 @@ export default function InvitePage({ params }: { params: Promise<{ token: string
             <div className="opacity-0 animate-fade-in-up delay-600">
               <p className="text-charcoal leading-relaxed mb-6">
                 We invite you to the{" "}
-                <span className="font-semibold">{event.eventType.toLowerCase()}</span> of{" "}
+                <span className="font-semibold">{event.eventType.toLowerCase()}</span> of{" "}\n
                 <span className="font-display text-gold-dark text-lg">{event.hostNames}</span>
               </p>
             </div>
@@ -239,7 +239,7 @@ export default function InvitePage({ params }: { params: Promise<{ token: string
             {/* Date, time, venue block */}
             <div className="opacity-0 animate-fade-in-up delay-800 my-8 py-6 border-t border-b border-champagne/60">
               <p className="font-display text-xl text-charcoal">
-                {formatDate(event.eventDate)}
+                on {formatDate(event.eventDate)}
               </p>
               <p className="text-gold-dark font-medium mt-1">
                 at {formatTime(event.eventTime)}
