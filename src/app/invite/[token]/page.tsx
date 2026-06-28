@@ -232,7 +232,7 @@ export default function InvitePage({ params }: { params: Promise<{ token: string
               <p className="text-charcoal leading-relaxed mb-6">
                 We invite you to the{" "}
                 <span className="font-semibold">{event.eventType.toLowerCase()}</span> of{" "}
-                <span className="font-display text-gold-dark text-lg">{event.hostNames}</span>
+                <br><span className="font-display text-gold-dark text-lg">{event.hostNames}</span></br>
               </p>
             </div>
 
