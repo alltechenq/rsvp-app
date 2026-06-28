@@ -163,7 +163,7 @@ export default function InvitePage({ params }: { params: Promise<{ token: string
             {event.title}
           </h1>
 
-          <p className="text-warm-gray mb-2 text-lg">{event.hostNames}</p>
+         /* <p className="text-warm-gray mb-2 text-lg">{event.hostNames}</p> */
 
           <div className="my-8 py-6 border-t border-b border-champagne">
             <p className="font-display text-2xl text-charcoal mb-1">
