@@ -255,7 +255,7 @@ export default function InvitePage({ params }: { params: Promise<{ token: string
               <p className="text-sm text-warm-gray">
                 We have reserved{" "}
                 <span className="font-semibold text-charcoal">{group.maxGuests}</span>{" "}
-                {group.maxGuests === 1 ? "seat for you. Please use the RSVP below to let us know your attendance." : "seats for your party. Please use the RSVP below to let us know your parties attendance."}
+                {group.maxGuests === 1 ? "seat for you. Please use the RSVP below to let us know your attendance." : "seats for your family. Please use the RSVP below to let us know your family's attendance."}
               </p>
             </div>
 
